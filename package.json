@@ -1,0 +1,11 @@
+{
+	"name": "avito-map",
+	"version": "0.0.1",
+
+	"dependencies": {
+		"jsdom": "*",
+		"2gis-api": "*",
+		"express": "*",
+		"mongodb": "*"
+	}
+}

@@ -1,0 +1,16 @@
+#appmap {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+
+/**
+ * Знак рубля
+ */
+@font-face { font-family: "Rubl Sign"; src: url(http://www.artlebedev.ru/;-)/ruble.eot); }
+span.rub { font-family: "Rubl Sign"; text-transform: uppercase; // text-transform: none;}    
+span.rub span { position: absolute; overflow: hidden; width: .45em; height: 1em; margin: .1ex 0 0 -.55em; // display: none; }
+span.rub span:before { content: '\2013'; }

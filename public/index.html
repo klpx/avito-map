@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.css" />
+	<link rel="stylesheet" type="text/css" href="/jquery-ui/css/ui-lightness/jquery-ui-1.10.3.custom.min.css">
+	<link rel="stylesheet" type="text/css" href="/styles/main.css">
+</head>
+<body>
+	<div id='appmap'>
+		<div class="leaflet-top leaflet-right">
+			<div class="leaflet-control-layers leaflet-control leaflet-control-layers-expanded"
+			style="width: 200px">
+				Цена: <br>
+				<small>
+					от <span data-bind="text: priceRange()[0]"></span>
+					до <span data-bind="text: priceRange()[1]"></span>
+				</small>
+				<div data-bind="range: priceRange"></div>
+			</div>
+		</div>
+	</div>
+
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="/jquery-ui/js/jquery-ui-1.10.3.custom.min.js"></script>
+
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.js"></script>
+	<script src="/js/knockout.js"></script>
+	<script src="/js/map.js"></script>
+</body>
+</html>
